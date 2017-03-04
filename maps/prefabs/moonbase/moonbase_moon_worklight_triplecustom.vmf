@@ -1,0 +1,224 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6920"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "24"
+	"classname" "prop_static"
+	"angles" "0 0.5 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_moonbase/moon_worklight01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "7.32098 -34.25 53.71"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11500 -11268]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "prop_static"
+	"angles" "0 0.5 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_moonbase/moon_worklight01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "7.32098 -34.25 109.71"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11500 -11768]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "prop_static"
+	"angles" "0 0.5 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_moonbase/moon_worklight01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "7.32098 -34.25 159.71"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11500 -12768]"
+	}
+}
+entity
+{
+	"id" "36"
+	"classname" "prop_static"
+	"angles" "0 24 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_moonbase/moon_steelsupport02.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "15.249 -8 -152"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[11500 -12268]"
+	}
+}
+entity
+{
+	"id" "40"
+	"classname" "env_lightglow"
+	"angles" "0 0 0"
+	"GlowProxySize" "1"
+	"HDRColorScale" "1.0"
+	"HorizontalGlowSize" "4"
+	"MaxDist" "1"
+	"MinDist" "0"
+	"OuterMaxDist" "0"
+	"rendercolor" "253 241 219"
+	"spawnflags" "0"
+	"VerticalGlowSize" "3.5"
+	"origin" "8.25158 -57.3142 154.009"
+	editor
+	{
+		"color" "255 128 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 6000]"
+	}
+}
+entity
+{
+	"id" "42"
+	"classname" "env_lightglow"
+	"angles" "0 0 0"
+	"GlowProxySize" "1"
+	"HDRColorScale" "1.0"
+	"HorizontalGlowSize" "4"
+	"MaxDist" "1"
+	"MinDist" "0"
+	"OuterMaxDist" "0"
+	"rendercolor" "253 241 219"
+	"spawnflags" "0"
+	"VerticalGlowSize" "3.5"
+	"origin" "8.25158 -57.3142 106.385"
+	editor
+	{
+		"color" "255 128 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 4000]"
+	}
+}
+entity
+{
+	"id" "44"
+	"classname" "env_lightglow"
+	"angles" "0 0 0"
+	"GlowProxySize" "1"
+	"HDRColorScale" "1.0"
+	"HorizontalGlowSize" "4"
+	"MaxDist" "1"
+	"MinDist" "0"
+	"OuterMaxDist" "0"
+	"rendercolor" "253 241 219"
+	"spawnflags" "0"
+	"VerticalGlowSize" "3.5"
+	"origin" "8.25158 -57.3142 50.0092"
+	editor
+	{
+		"color" "255 128 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3000 -12768]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
