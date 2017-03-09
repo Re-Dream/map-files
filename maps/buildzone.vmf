@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "226"
+	"mapversion" "227"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "226"
+	"mapversion" "227"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -8874,7 +8874,7 @@ world
 		side
 		{
 			"id" "34043"
-			"plane" "(327.996 -9856 -15780) (-336 -9856 -15780) (-336 -9824 -15780)"
+			"plane" "(328 -9856 -15780) (-336 -9856 -15780) (-336 -9824 -15780)"
 			"material" "TOOLS/TOOLSNODRAW_ROOF"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0.00390625] 0.25"
@@ -8885,7 +8885,7 @@ world
 		side
 		{
 			"id" "34042"
-			"plane" "(327.996 -9824 -16024) (-336 -9824 -16024) (-336 -9856 -16024)"
+			"plane" "(328 -9824 -16224) (-336 -9824 -16224) (-336 -9856 -16224)"
 			"material" "TOOLS/TOOLSNODRAW_ROOF"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[1 0 0 0.00390625] 0.25"
@@ -8896,7 +8896,7 @@ world
 		side
 		{
 			"id" "34041"
-			"plane" "(327.996 -9856 -16024) (-336 -9856 -16024) (-336 -9856 -15780)"
+			"plane" "(328 -9856 -16224) (-336 -9856 -16224) (-336 -9856 -15780)"
 			"material" "CONCRETE/CONCRETEWALL071A"
 			"uaxis" "[-1 0 0 -0.00390625] 0.25"
 			"vaxis" "[0 0 -1 -16] 0.25"
@@ -8907,7 +8907,7 @@ world
 		side
 		{
 			"id" "34040"
-			"plane" "(-336 -9824 -16024) (328 -9824 -16024) (327.996 -9824 -15780)"
+			"plane" "(-336 -9824 -16224) (328 -9824 -16224) (328 -9824 -15780)"
 			"material" "TOOLS/TOOLSNODRAW_ROOF"
 			"uaxis" "[-1 0 0 31.9961] 0.25"
 			"vaxis" "[0 0 -1 -16] 0.25"
@@ -8918,7 +8918,7 @@ world
 		side
 		{
 			"id" "34039"
-			"plane" "(328.001 -9824 -16024) (328.001 -9856 -16024) (328.001 -9856 -15780)"
+			"plane" "(328 -9824 -16224) (328 -9856 -16224) (328 -9856 -15780)"
 			"material" "TOOLS/TOOLSNODRAW_ROOF"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -16] 0.25"
@@ -8929,7 +8929,7 @@ world
 		side
 		{
 			"id" "34038"
-			"plane" "(-335.998 -9856 -16024) (-335.998 -9824 -16024) (-335.998 -9824 -15780)"
+			"plane" "(-336 -9856 -16224) (-336 -9824 -16224) (-336 -9824 -15780)"
 			"material" "DEV/DEV_MEASUREGENERIC01"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -16] 0.25"
@@ -52762,13 +52762,27 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "218970"
+	"classname" "infodecal"
+	"texture" "decals/decalgraffiti031a"
+	"origin" "-7.98314 -9856 -16108.6"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-1720.5 -11112.9 -15922.6]"
-		"look" "[-1720.43 -11107.7 -15922.6]"
+		"position" "[348.003 -333.533 -11520.7]"
+		"look" "[343.864 -330.395 -11520.8]"
 	}
 }
 cordon
