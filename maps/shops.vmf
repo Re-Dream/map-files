@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "18"
+	"mapversion" "23"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -13,6 +13,12 @@ visgroups
 		"name" "CLIPS"
 		"visgroupid" "11"
 		"color" "88 249 94"
+	}
+	visgroup
+	{
+		"name" "playtest"
+		"visgroupid" "13"
+		"color" "255 236 157"
 	}
 }
 viewsettings
@@ -26,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "18"
+	"mapversion" "23"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1104,7 +1110,7 @@ world
 		{
 			"id" "2451"
 			"plane" "(-300 -58.6667 15.746) (-300 -58.6667 -84.8254) (-300 -126.333 -84.8254)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
+			"material" "GLASS/COMBINEGLASS001A"
 			"uaxis" "[0 1 0 443.901] 0.132161"
 			"vaxis" "[0 0 -1 80.1617] 0.196429"
 			"rotation" "0"
@@ -1115,7 +1121,7 @@ world
 		{
 			"id" "2450"
 			"plane" "(-302 -126.333 -84.8254) (-302 -58.6667 -84.8254) (-302 -58.6667 15.746)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
+			"material" "GLASS/COMBINEGLASS001A"
 			"uaxis" "[0 1 0 443.901] 0.132161"
 			"vaxis" "[0 0 -1 80.1617] 0.196429"
 			"rotation" "0"
@@ -1181,7 +1187,7 @@ world
 		{
 			"id" "2445"
 			"plane" "(-300 -133.333 15.746) (-300 -133.333 -84.8254) (-300 -201 -84.8254)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
+			"material" "GLASS/COMBINEGLASS001A"
 			"uaxis" "[0 1 0 497] 0.132161"
 			"vaxis" "[0 0 -1 80] 0.196429"
 			"rotation" "0"
@@ -1192,7 +1198,7 @@ world
 		{
 			"id" "2444"
 			"plane" "(-302 -201 -84.8254) (-302 -133.333 -84.8254) (-302 -133.333 15.746)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
+			"material" "GLASS/COMBINEGLASS001A"
 			"uaxis" "[0 1 0 496.867] 0.132161"
 			"vaxis" "[0 0 -1 80.1617] 0.196429"
 			"rotation" "0"
@@ -1566,9 +1572,9 @@ world
 		{
 			"id" "2553"
 			"plane" "(-52 90.6666 15.746) (-52 90.6666 -84.8254) (-52 158.333 -84.8254)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 -1 0 174.029] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 -1 0 174.042] 0.132161"
+			"vaxis" "[0 0 -1 80] 0.196429"
 			"rotation" "0"
 			"lightmapscale" "64"
 			"smoothing_groups" "0"
@@ -1577,11 +1583,11 @@ world
 		{
 			"id" "2552"
 			"plane" "(-50 158.333 -84.8254) (-50 90.6666 -84.8254) (-50 90.6666 15.746)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 -1 0 174.029] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 -1 0 174.056] 0.132158"
+			"vaxis" "[0 0 -1 80.1461] 0.196419"
 			"rotation" "0"
-			"lightmapscale" "32"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -1643,9 +1649,9 @@ world
 		{
 			"id" "2559"
 			"plane" "(-52 165.333 15.746) (-52 165.333 -84.8254) (-52 233 -84.8254)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 -1 0 226.995] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 -1 0 226.975] 0.132161"
+			"vaxis" "[0 0 -1 80] 0.196429"
 			"rotation" "0"
 			"lightmapscale" "64"
 			"smoothing_groups" "0"
@@ -1654,11 +1660,11 @@ world
 		{
 			"id" "2558"
 			"plane" "(-50 233 -84.8254) (-50 165.333 -84.8254) (-50 165.333 15.746)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 -1 0 226.995] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 -1 0 226.91] 0.132168"
+			"vaxis" "[0 0 -1 80.1461] 0.196419"
 			"rotation" "0"
-			"lightmapscale" "32"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -2148,28 +2154,6 @@ world
 		editor
 		{
 			"color" "207 204 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "2494"
-		editor
-		{
-			"color" "207 204 0"
-			"groupid" "2547"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "2528"
-		editor
-		{
-			"color" "207 204 0"
-			"groupid" "2547"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3679,9 +3663,9 @@ entity
 		{
 			"id" "2307"
 			"plane" "(-300 158.333 15.746) (-300 158.333 -84.8254) (-300 90.6667 -84.8254)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 1 0 -174.029] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 1 0 -174.043] 0.132159"
+			"vaxis" "[0 0 -1 80.1619] 0.196429"
 			"rotation" "0"
 			"lightmapscale" "64"
 			"smoothing_groups" "0"
@@ -3690,11 +3674,11 @@ entity
 		{
 			"id" "2306"
 			"plane" "(-302 90.6667 -84.8254) (-302 158.333 -84.8254) (-302 158.333 15.746)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 1 0 -62] 0.25"
-			"vaxis" "[0 0 -1 280] 0.25"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 1 0 -174.043] 0.132159"
+			"vaxis" "[0 0 -1 80.1461] 0.196419"
 			"rotation" "0"
-			"lightmapscale" "32"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -3983,9 +3967,9 @@ entity
 		{
 			"id" "2331"
 			"plane" "(-300 233 15.746) (-300 233 -84.8254) (-300 165.333 -84.8254)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 1 0 -226.995] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 1 0 -226.961] 0.132164"
+			"vaxis" "[0 0 -1 80.1619] 0.196429"
 			"rotation" "0"
 			"lightmapscale" "64"
 			"smoothing_groups" "0"
@@ -3994,11 +3978,11 @@ entity
 		{
 			"id" "2330"
 			"plane" "(-302 165.333 -84.8254) (-302 233 -84.8254) (-302 233 15.746)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 1 0 -318] 0.25"
-			"vaxis" "[0 0 -1 280] 0.25"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 1 0 -227] 0.132164"
+			"vaxis" "[0 0 -1 80] 0.196429"
 			"rotation" "0"
-			"lightmapscale" "32"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -4224,9 +4208,9 @@ entity
 		{
 			"id" "2583"
 			"plane" "(-52 -126.333 15.746) (-52 -126.333 -84.8254) (-52 -58.6667 -84.8254)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 -1 0 -443.902] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 -1 0 -443.911] 0.132159"
+			"vaxis" "[0 0 -1 80.1619] 0.196429"
 			"rotation" "0"
 			"lightmapscale" "64"
 			"smoothing_groups" "0"
@@ -4235,11 +4219,11 @@ entity
 		{
 			"id" "2582"
 			"plane" "(-50 -58.6667 -84.8254) (-50 -126.333 -84.8254) (-50 -126.333 15.746)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 -1 0 -443.902] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 -1 0 -443.911] 0.132159"
+			"vaxis" "[0 0 -1 80.1461] 0.196419"
 			"rotation" "0"
-			"lightmapscale" "32"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -4528,9 +4512,9 @@ entity
 		{
 			"id" "2607"
 			"plane" "(-52 -201 15.746) (-52 -201 -84.8254) (-52 -133.333 -84.8254)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 -1 0 -496.867] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 -1 0 -496.838] 0.132164"
+			"vaxis" "[0 0 -1 80.1619] 0.196429"
 			"rotation" "0"
 			"lightmapscale" "64"
 			"smoothing_groups" "0"
@@ -4539,11 +4523,11 @@ entity
 		{
 			"id" "2606"
 			"plane" "(-50 -133.333 -84.8254) (-50 -201 -84.8254) (-50 -201 15.746)"
-			"material" "METASTRUCT_2/LOBBY_GLASS"
-			"uaxis" "[0 -1 0 -496.867] 0.132161"
-			"vaxis" "[0 0 -1 80.1617] 0.196429"
+			"material" "GLASS/COMBINEGLASS001A"
+			"uaxis" "[0 -1 0 -496.838] 0.132164"
+			"vaxis" "[0 0 -1 80.1461] 0.196419"
 			"rotation" "0"
-			"lightmapscale" "32"
+			"lightmapscale" "64"
 			"smoothing_groups" "0"
 		}
 		side
@@ -8070,6 +8054,285 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "5732"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 248 232 120"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-176 0 4"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5760"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 248 232 80"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "208 16 17"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5765"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "255 248 232 80"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-546 16 17"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "5829"
+		"classname" "info_player_start"
+		"angles" "0 90 0"
+		"spawnflags" "0"
+		"origin" "-176 -136 -88"
+		editor
+		{
+			"color" "0 255 0"
+			"visgroupid" "13"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "5849"
+		"classname" "func_detail"
+		hidden
+		{
+			solid
+			{
+				"id" "5819"
+				side
+				{
+					"id" "2723"
+					"plane" "(-288 -416 176) (-64 -416 176) (-64 -424 176)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "2722"
+					"plane" "(-288 -424 16) (-64 -424 16) (-64 -416 16)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 -1 0 0] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "2721"
+					"plane" "(-288 -416 176) (-288 -424 176) (-288 -424 16)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 12] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "2720"
+					"plane" "(-64 -416 16) (-64 -424 16) (-64 -424 176)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[0 1 0 0] 0.25"
+					"vaxis" "[0 0 -1 12] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "2719"
+					"plane" "(-64 -416 176) (-288 -416 176) (-288 -416 16)"
+					"material" "CUSTOMDEV/DEV_MEASUREGENERIC01BLU"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 0 -1 12] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				side
+				{
+					"id" "2718"
+					"plane" "(-64 -424 16) (-288 -424 16) (-288 -424 176)"
+					"material" "TOOLS/TOOLSNODRAW"
+					"uaxis" "[1 0 0 0] 0.25"
+					"vaxis" "[0 0 -1 12] 0.25"
+					"rotation" "0"
+					"lightmapscale" "16"
+					"smoothing_groups" "0"
+				}
+				editor
+				{
+					"color" "0 180 0"
+					"visgroupshown" "0"
+					"visgroupautoshown" "1"
+				}
+			}
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupid" "13"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 1000]"
+		}
+	}
+}
+entity
+{
+	"id" "5877"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_c17/light_domelight02_on.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "208 16 32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5916"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_c17/light_domelight02_on.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-176 0 32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5920"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_c17/light_domelight02_on.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-546 16 32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
