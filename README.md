@@ -13,5 +13,7 @@ If you wish for your work to be private for personal reasons or certain circumst
 
 # TODO:
 Remove remnants of previous server's instances in favour of new systems and instances
+
 Build new Lobby Layout
+
 Create compile system that functions on clients without advanced setup
