@@ -9,7 +9,9 @@ To discuss or propose changes to this map, please use the discord map channel: h
 # Note
 The map is assembled and compiled from a master vmf with instances, this will be supported via a custom compiler (coming soon)
 
-If you wish for your work to be private for personal reasons or certain circumstances there will be a private repository for you to push work to in the future, message one of the Team Managers on the Map Developers team. (coming soon)
+If you wish for your work to be private for personal reasons or certain circumstances there will be a private repository for you to push work to in the future, message one of the Team Managers on the Map Developers team.
 
 # TODO:
 Remove remnants of previous server's instances in favour of new systems and instances
+Build new Lobby Layout
+Create compile system that functions on clients without advanced setup
