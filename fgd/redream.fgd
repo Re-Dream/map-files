@@ -1,7 +1,7 @@
-@include "halflife2.fgd"
+@include "base.fgd"
 
-@PointClass base(Angles) studio("models/editor/playerstart.mdl") = redream_spawn :
-	"Bootleg info_player_start. This is to get a better player spawn and not spawn inside eachother."
+@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") sphere(Size) = redream_spawn :
+	"This entity acts as a spawn point, it will find the nearest available space to spawn the player."
 [
-	Size(Integer) : "Size" : : "The size around the entity to spawn players at."
+	Size(Integer) : "Size" : 128 : "The area which players will spawn in units."
 ]
