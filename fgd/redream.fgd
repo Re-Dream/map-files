@@ -1,0 +1,7 @@
+@include "halflife2.fgd"
+
+@PointClass base(Angles) studio("models/editor/playerstart.mdl") = redream_spawn :
+	"Bootleg info_player_start. This is to get a better player spawn and not spawn inside eachother."
+[
+	Size(Integer) : "Size" : : "The size around the entity to spawn players at."
+]
