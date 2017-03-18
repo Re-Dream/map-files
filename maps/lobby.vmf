@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "405"
+	"mapversion" "406"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -13,12 +13,6 @@ visgroups
 		"name" "Sauna"
 		"visgroupid" "11"
 		"color" "255 255 0"
-	}
-	visgroup
-	{
-		"name" "Shops"
-		"visgroupid" "23"
-		"color" "101 170 131"
 	}
 	visgroup
 	{
@@ -92,7 +86,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "405"
+	"mapversion" "406"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35854,23 +35848,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[6500 -12768]"
-	}
-}
-entity
-{
-	"id" "51358"
-	"classname" "func_instance"
-	"angles" "0 0 0"
-	"file" "shops.vmf"
-	"fixup_style" "2"
-	"origin" "-6672 -3792 -96"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupid" "23"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
