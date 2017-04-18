@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6920"
-	"mapversion" "4"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -48,41 +48,9 @@ entity
 	"id" "24"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "lobby.vmf"
+	"file" "lobby_wip.vmf"
 	"fixup_style" "0"
 	"origin" "-6720 -98.5743 3264"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "36"
-	"classname" "func_instance"
-	"angles" "-0 0 0"
-	"file" "moonbase.vmf"
-	"fixup_style" "0"
-	"origin" "-4384 -98.5743 1824"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "55"
-	"classname" "func_instance"
-	"angles" "-0 0 0"
-	"file" "apartment.vmf"
-	"fixup_style" "0"
-	"origin" "-9568 1248 1824"
 	editor
 	{
 		"color" "220 30 220"
