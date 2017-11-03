@@ -1,7 +1,64 @@
+//=================This work is licensed under a MIT License.==================
+//
+// Redream Forge Game Data file. For more information visit:
+// https://github.com/Re-Dream/map-files
+//
+//=============================================================================
+
 @include "halflife2.fgd"
+
+//=============================================================================
+//
+// BaseClasses
+//
+//=============================================================================
+
+@BaseClass = Lua
+	// Inheriting lua_run from garrysmod.fgd caused a bug where OnUser and other things would be duplicated. So I created a Lua baseclass.
+[
+	Code(string) : "Code" : "" : "Lua code to run when triggered"
+	
+	input RunCode(void) : "Run Code that was defined in the entity"
+	input RunPassedCode(string) : "Run code that was passed as a variable"
+]
+
+
+//=============================================================================
+//
+// Lua entities
+//
+//=============================================================================
 
 @PointClass base(Angles) studio("models/editor/playerstart.mdl") = redream_spawn :
 	"Bootleg info_player_start. This is to get a better player spawn and not spawn inside eachother."
+	// Tenrys says that this is deprecated. Keeping it for now.
 [
 	Size(Integer) : "Size" : : "The size around the entity to spawn players at."
+]
+
+@PointClass base(PlayerClass, Angles, Targetname) studio("models/editor/playerstart.mdl") = redream_player_start :
+	"A simple test for testing KeyValues, feel free to add lua code that"+
+	"can utilize this if existent. (gamemodes/base/gamemode/player.lua is an good example)"
+[
+	test(string) : "Test string" : "Hello World" : "Simple keyvalue for testing purposes."
+]
+
+@PointClass base(Targetname, Angles) iconsprite("editor/lua_screen.vmt") sphere(DistMax) = lua_screen :
+	"A lua screen entity."
+	// TODO: Figure out if this is going to be a thing or not. If so, add more keyvalues to define what and how to load stuff etc..
+[
+	DistMax(float) : "Maximum Visible Distance" : 1024 : "Maximum distance at which the lua screen is visible."
+]
+
+
+//=============================================================================
+//
+// Lua solids (Trigger, Func etc..)
+//
+//=============================================================================
+
+@SolidClass base(TriggerOnce, Lua) = lua_trigger :
+	"A trigger volume that can run Lua code when triggered"
+[
+	place(string) : "Place" : : "Defines what place the entities inside of the trigger are in. (Obsolete?)"
 ]
