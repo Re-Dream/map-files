@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6920"
-	"mapversion" "4"
+	"editorbuild" "7538"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -32,25 +32,9 @@ entity
 	"id" "3"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "buildzone.vmf"
+	"file" "redream_waterlands.vmf"
 	"fixup_style" "0"
-	"origin" "1.99065 224 64"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "24"
-	"classname" "func_instance"
-	"angles" "-0 0 0"
-	"file" "lobby.vmf"
-	"fixup_style" "0"
-	"origin" "-6720 -98.5743 3264"
+	"origin" "0 0 -9936"
 	editor
 	{
 		"color" "220 30 220"
