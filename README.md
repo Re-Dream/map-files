@@ -16,16 +16,20 @@ Make sure that you have standardised brushwork, worldbrushes going to the void s
 Do not have brushes that are not of units to the power of 2. (Do not do 1 unit brushes in width or diameter)
 Try to optimize any big changes, func_detail world geometry that is:
 
-Not in contact with the void
+* Not in contact with void (knowledge and discression applies for performance reasons)
 
-Misc detail (should be a model if high detailed)
+* Misc detail (should be a model if high detailed)
 
 Keep names for files conventional and coherant (Do not name your map meme_x321_v4_kabus or other silly things)
 
 # Note
-The map is assembled and compiled from a master vmf with instances for ease of editing multiple maps without rendering hammer to 2 fps This will be supported via a custom compiler solution (currently being worked on)
+* The map is assembled and compiled from a master vmf with instances for ease of editing multiple maps without causing hammer to crash from opening large scale VMF files.
 
-Temporarily, or if you prefer, you can compile the map using the map-compiling-toolkit https://github.com/Metastruct/map-compiling-toolkit
-This requires a lot of manual setup, support is not given for this toolkit from Re-Dream
+* The current master VMF is redream_waterlands.vmf, this may be  subject to change
+
+* A compile tool is slowly being made via Python 3, functionality can be seen for it at https://github.com/KabusIblis/map-toolkit
+
+* Temporarily, or if you prefer, you can compile the map using Python1320s map-compiling-toolkit https://github.com/Metastruct/map-compiling-toolkit
+  * This requires a lot of manual setup, support is not given for this toolkit.
 
 Projects are used for TODO tracking
